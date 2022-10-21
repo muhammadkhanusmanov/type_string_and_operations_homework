@@ -7,4 +7,5 @@ def main(x,y):
     Returns:
         str: return answer.
     """
-    return 
+    m = f'({a}+{b})*2={a*b}'
+    return m 
