@@ -8,5 +8,6 @@ def main(x1,x2,x3):
     Returns:
         str: return answer.
     """
-    m = f'[{x1}, {x2}, {x3}]'
-    return m 
+    m = '['+str(x1)+', '+str(x2)+', '+str(x3)+']'
+    return m
+print(main(12, 23, 11))
